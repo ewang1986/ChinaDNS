@@ -60,3 +60,5 @@ cd src && gcovr -r . --html  --html-details  -o index.html
 gcovr -r . | grep TOTAL | rev | cut -d' ' -f 1 | rev  > /tmp/chinadns-coverage
 
 exit $result
+
+
